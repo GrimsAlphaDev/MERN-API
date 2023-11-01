@@ -10,10 +10,10 @@ const BlogPost = new Schema({
         type: String,
         require: true
     },
-    // image: {
-    //     type: String,
-    //     require: true
-    // },
+    image: {
+        type: String,
+        require: true
+    },
     author: {
         type: Object,
         require: true
